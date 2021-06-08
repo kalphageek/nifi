@@ -5,8 +5,8 @@
 ---
 1. UpdateRecord
     * Properties
-      - JsonPath Expression : $.eqp1TrDets
-      - /eqp1TrDets[*]/tr_id : /id  -> 직접추가, eqp1TrDets가 배열이다
+      - Replacement Value Strategy : Record Path Value
+      - /eqp1TrDets[*]/tr_id : /id  -> 직접추가, eqp1TrDets은 배열, /eqp1TrDets[*]/tr_id 생성하고, /id를 그 값으로 입력.
 1. JsonTreeReader
 1. JsonRecordSetWriter
     * Properties
